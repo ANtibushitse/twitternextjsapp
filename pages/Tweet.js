@@ -1,8 +1,8 @@
 import react from 'react'
 
 const Tweet =({text}) =>{ 
-    const text ='this iis an exemple'
-  return <h2> {text}</h2>
+  
+  return <h3 >{text.toUpperCase()}</h3>
 }
  
 export default Tweet
